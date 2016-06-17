@@ -1,15 +1,15 @@
 development:
-  adapter: postgresql
-  encoding: unicode
+  adapter: mysql2
+  encoding: utf8
   database: actioncable-react_development
   pool: 5
-  username: postgres
+  username: root
   password:
 
 test:
-  adapter: postgresql
-  encoding: unicode
+  adapter: mysql2
+  encoding: utf8
   database: actioncable-react_test
   pool: 5
-  username: postgres
+  username: root
   password:
